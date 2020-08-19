@@ -37,5 +37,4 @@ while(value and t>0):
     i = i+1
     value = symmetry(a[:t])
     t = int(t/2)
-    print(t,value,i)
 print(i)
